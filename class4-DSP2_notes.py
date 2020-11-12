@@ -16,16 +16,16 @@ sr = 44100
 t = np.arange( sr )/sr
 
 # waveform 1
-f1 = 300 # frequency
+f1 = 3 # frequency
 a1 = 0.5 # amplitude
 p1 = 0 # phase
-s1 = a1*np.sin( 2*np.pi*f1*t + 2*np.pi*f1*p1 )
+s1 = a1*np.sin( 2*np.pi*f1*t + np.pi*p1 )
 
 # waveform 2
-f2 = 450 # frequency
+f2 = 4 # frequency
 a2 = 0.3 # amplitude
 p2 = 0 # phase
-s2 = a2*np.sin( 2*np.pi*f2*t + 2*np.pi*f2*p2 )
+s2 = a2*np.sin( 2*np.pi*f2*t + np.pi*p2 )
 
 s3 = s1 + s2
 
