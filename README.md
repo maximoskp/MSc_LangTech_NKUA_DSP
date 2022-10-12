@@ -2,6 +2,8 @@
 Code for MSc_LangTech_NKUA_DSP courses.
 
 0. If using windows, install git for windows. https://git-scm.com/download/win
+In Mac, you might need to install git, there are several workarounds: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git 
+In Linux, it's already there...
 
 1. Create a folder for all your repositories - make sure you know how to navigate there. E.g. create the directory "repos" in "Documents" - full path would be: Documents/repos (assuming you're in the home folder of the current user).
 
@@ -15,7 +17,7 @@ Code for MSc_LangTech_NKUA_DSP courses.
 http://www.econ.ucla.edu/TApages/wan/basic_commands.html
 
 
-- Install Anaconda
+## - Install Anaconda
 
 Download and install Anaconda in your machine (Windows / macOS / Linux):
 
@@ -52,6 +54,20 @@ or
 pip install jupyterthemes
 
 jt -t chesterish
+
+
+## - Create environments
+
+More information here: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+Initially, it is ok to have one environment for all courses or applications, e.g., you might name it "general".
+
+
+## - Install Spyder
+
+The best way to do it, if you don't have Mac M1 computer, is through the Anaconda navigator or the command "pip install spyder" in the command line. If you have a Mac M1, your best bet is to use the standalone app.
+
+## - Install libraries
 
 
 Install interactive extension

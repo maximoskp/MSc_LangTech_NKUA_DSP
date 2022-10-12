@@ -45,7 +45,7 @@ t = b/44100
 
 import sounddevice as sd
 
-freq = 1000
+freq = 200
 s = np.sin( 2 * np.pi * freq * t )
 
 plt.plot(t,s, '-x')
