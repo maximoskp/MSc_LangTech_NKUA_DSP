@@ -1,0 +1,8 @@
+class01
+General audio stuff and many examples with audacity. Frequency analysis, roughly with the eye and more thoroughly through spectrum analysis. Exercise with rough and thorough analysis of recorded signal.
+
+class02
+Basics in python, lists and numpy arrays.
+
+class03
+TODO: For loops in python. Range and np.arange. Simple sound generator with numpy. Simple addition of harmonics. Binary system, towards quantization. Aliasing and quantization. Exercise on building and listening to harmonics. Theoretical exercise with quantization.
