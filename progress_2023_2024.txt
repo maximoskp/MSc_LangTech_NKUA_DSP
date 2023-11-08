@@ -8,4 +8,4 @@ class03
 TODO: For loops in python. Range and np.arange. Simple sound generator with numpy and aliasing.
 
 class04
-Simple addition of harmonics. Exercise on building and listening to harmonics. Binary system and quantization. Theoretical exercise with quantization. FFT, DTFT, STFT and window size.
+During the in-class exercise: Simple addition of harmonics. Exercise on building and listening to harmonics. During the normal course: Binary system and quantization. Theoretical exercise with quantization. FFT, DTFT, STFT and window size.
